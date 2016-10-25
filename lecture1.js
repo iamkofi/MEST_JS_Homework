@@ -149,4 +149,4 @@ switch(value){
      studentScores.forEach(studentScores){
          console.log(studentScores);
      };
- }
+ } 
