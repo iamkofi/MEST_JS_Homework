@@ -77,52 +77,28 @@ console.log(pizzaOne.name);
  console.log(sheep.eat());
  console.log(sheep.walk());
 
-/*
- * 6. Write a small menu selection function by using if-else and switch, input number, output name of your order
- */
-
-
- Animal.prototype.eat = function(){
-   console.log(this.name + " can eat");
- }
- Animal.prototype.sleep = function(){
-   console.log(this.name + " can sleep");
- }
-
- dog = new Animal("Dog");
- console.log(dog);
- console.log(dog.name);
- console.log(dog.eat());
- console.log(dog.sleep());
-
- cat = new Animal("Cat");
- console.log(cat);
- console.log(cat.name);
- console.log(cat.eat());
- console.log(cat.sleep());
-
 
 /*
 * 6. Write a small menu selection function by using if-else and switch, input number, output name of your order
 */
 if (7){
-    console.log('jollof rice, 2pcs chicken, salad ' + '12Cedis');
+    console.log('sandwitch, milkshake, orange bun ' + '= 16Cedis');
 } else if (8){
-    console.log('jollof rice, 3pcs chicken, salad ' + '14Cedis');
+    console.log('strawberry smoothy, biscuit, jam ' + '= 15Cedis');
 } else if (9){
-    console.log('jollof rice, tilapia, salad ' + '15Cedis');
+    console.log('banan smoothy, waffle, ice cream ' + '= 20Cedis');
 }
 
 /*using SWITCH statement*/
 
 switch(value){
-    case 1 :
+    case 0 :
         'sandwitch, milkshake, orange bun ' + '= 16Cedis';
         break;
-    case 2 :
+    case 1 :
         'strawberry smoothy, biscuit, jam ' + '= 15Cedis';
         break;
-    case 3 :
+    case 2 :
         'banan smoothy, waffle, ice cream ' + '= 20Cedis';
         break;
 
@@ -149,4 +125,4 @@ switch(value){
      studentScores.forEach(studentScores){
          console.log(studentScores);
      };
- } 
+ }
